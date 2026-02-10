@@ -3,216 +3,321 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flourish Digital | Portfolio</title>
+
+    <!-- SEO Meta -->
+    <title>[REPLACE: Your Name] | Freelance Web Developer & E-commerce Specialist</title>
+    <meta
+      name="description"
+      content="[REPLACE: Your Name] helps businesses build high-converting websites and e-commerce experiences through modern design, clean code, and growth-focused strategy."
+    />
+    <meta
+      name="keywords"
+      content="freelance web developer, e-commerce developer, Shopify expert, front-end developer, website redesign"
+    />
+    <meta name="author" content="[REPLACE: Your Name]" />
+    <meta property="og:title" content="[REPLACE: Your Name] | Web & E-commerce Portfolio" />
+    <meta
+      property="og:description"
+      content="Professional portfolio for [REPLACE: Your Name], focused on modern websites and e-commerce growth solutions."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="[REPLACE: Your Site URL]" />
+    <meta property="og:image" content="assets/images/og-preview.jpg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- Header / Navigation -->
     <header class="site-header" id="top">
-      <nav class="nav">
-        <a class="logo" href="#top">Flourish Digital</a>
-        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+      <nav class="container nav" aria-label="Main navigation">
+        <a class="logo" href="#top">[REPLACE: Your Name]</a>
+
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Toggle menu"
+        >
           <span></span>
           <span></span>
           <span></span>
         </button>
+
         <div class="nav-links" id="nav-links">
           <a href="#about">About</a>
           <a href="#services">Services</a>
-          <a href="#work">Work</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#contact" class="btn btn-small">Let’s Talk</a>
+          <a href="#projects">Projects</a>
+          <a href="#process">Process</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#contact" class="btn btn-small">Let's Talk</a>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="hero">
-        <div class="hero-content">
-          <p class="eyebrow">Creative Studio • Brand & Web</p>
-          <h1>Digital experiences that help ambitious brands flourish.</h1>
-          <p class="lead">
-            Flourish Digital is a boutique studio focused on bold branding, conversion-ready web design,
-            and content systems that grow with your business.
-          </p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn">Book a Strategy Call</a>
-            <a href="#work" class="btn btn-ghost">View Projects</a>
-          </div>
-          <div class="hero-stats">
-            <div>
-              <h3>45+</h3>
-              <p>Brand launches</p>
-            </div>
-            <div>
-              <h3>12</h3>
-              <p>Industries served</p>
-            </div>
-            <div>
-              <h3>100%</h3>
-              <p>Client-led strategy</p>
-            </div>
-          </div>
-        </div>
-        <div class="hero-card">
-          <div class="badge">Now Booking Q4</div>
-          <h2>Signature Offer</h2>
-          <p>
-            The Flourish Framework is a 6-week sprint blending brand strategy, visual identity, and a
-            launch-ready website.
-          </p>
-          <ul>
-            <li>Brand positioning + messaging</li>
-            <li>Visual identity + creative direction</li>
-            <li>Website design + handoff</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="about" id="about">
-        <div class="section-header">
-          <p class="eyebrow">About</p>
-          <h2>Designed for founders who are ready to stand out.</h2>
-        </div>
-        <div class="about-grid">
-          <p>
-            We partner with visionaries to translate ideas into digital experiences that feel effortless
-            and intentional. From brand foundations to polished sites, every detail is crafted to
-            connect with your audience and drive action.
-          </p>
-          <div class="about-highlight">
-            <h3>What makes Flourish different?</h3>
-            <p>
-              We balance artistry with performance. Expect strategic workshops, fast feedback loops, and
-              assets that keep your team moving long after launch.
-            </p>
-          </div>
-          <div class="about-highlight">
-            <h3>Toolbox</h3>
-            <p>Figma • Webflow • Framer • Squarespace • Notion • Adobe CC</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="services" id="services">
-        <div class="section-header">
-          <p class="eyebrow">Services</p>
-          <h2>End-to-end support for modern brands.</h2>
-        </div>
-        <div class="service-cards">
-          <article>
-            <h3>Brand Strategy</h3>
-            <p>Messaging, positioning, and a visual identity that reflects your market leadership.</p>
-          </article>
-          <article>
-            <h3>Web Experience</h3>
-            <p>High-converting websites with bespoke design, UX, and launch-ready content systems.</p>
-          </article>
-          <article>
-            <h3>Growth Assets</h3>
-            <p>Campaign kits, social templates, and content direction to support ongoing marketing.</p>
-          </article>
-          <article>
-            <h3>Creative Direction</h3>
-            <p>Photoshoots, design direction, and artful storytelling across every touchpoint.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="work" id="work">
-        <div class="section-header">
-          <p class="eyebrow">Selected Work</p>
-          <h2>Recent projects from the studio.</h2>
-        </div>
-        <div class="work-grid">
-          <article>
-            <div class="work-tag">Wellness</div>
-            <h3>Bloomfield Therapy</h3>
-            <p>Soft, minimal brand and calming website for a private wellness collective.</p>
-          </article>
-          <article>
-            <div class="work-tag">Hospitality</div>
-            <h3>Verde House</h3>
-            <p>Luxury boutique hotel launch with booking-ready web design and storytelling.</p>
-          </article>
-          <article>
-            <div class="work-tag">Tech</div>
-            <h3>Nova Finance</h3>
-            <p>Series A fintech with a bold identity and investor-focused landing experience.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="testimonials" id="testimonials">
-        <div class="section-header">
-          <p class="eyebrow">Client Love</p>
-          <h2>Why founders partner with Flourish.</h2>
-        </div>
-        <div class="testimonial-grid">
-          <article>
-            <p>
-              “Our launch felt effortless. The strategy sessions helped us clarify our offer, and the new
-              site is converting beautifully.”
-            </p>
-            <h4>— Camille R., Founder</h4>
-          </article>
-          <article>
-            <p>
-              “Flourish Digital captured our vibe perfectly. The visuals feel elevated while staying
-              approachable.”
-            </p>
-            <h4>— Jonah S., Creative Director</h4>
-          </article>
-          <article>
-            <p>
-              “The process was structured and fast. We launched in six weeks with everything we needed
-              for marketing.”
-            </p>
-            <h4>— Priya N., COO</h4>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div class="section-header">
-          <p class="eyebrow">Let’s Connect</p>
-          <h2>Ready to grow? Let’s build something beautiful.</h2>
-        </div>
-        <div class="contact-grid">
+      <!-- Hero / Home -->
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="container hero-grid">
           <div>
-            <p>
-              Share your vision, timeline, and goals. We’ll respond within 48 hours with next steps and
-              a tailored proposal.
+            <p class="eyebrow">Freelance Developer • E-commerce Growth Partner</p>
+            <h1 id="hero-title">I build conversion-focused websites that help businesses sell more online.</h1>
+            <p class="lead">
+              I design and develop fast, modern, and scalable web experiences for brands that need more
+              than a pretty website—they need measurable business results.
             </p>
-            <div class="contact-details">
-              <div>
-                <span>Email</span>
-                <a href="mailto:hello@flourishdigital.studio">hello@flourishdigital.studio</a>
-              </div>
-              <div>
-                <span>Location</span>
-                <p>Remote • Serving clients worldwide</p>
-              </div>
+            <div class="hero-actions">
+              <a href="#contact" class="btn">Book a Free Discovery Call</a>
+              <a href="#projects" class="btn btn-ghost">View Case Studies</a>
             </div>
+            <ul class="hero-proof" aria-label="Performance highlights">
+              <li><strong>4+ years</strong> building web & e-commerce products</li>
+              <li><strong>30+ projects</strong> delivered for startups and brands</li>
+              <li><strong>Up to 42% conversion lift</strong> on redesigned stores</li>
+            </ul>
           </div>
-          <form class="contact-form">
-            <label>
-              Name
-              <input type="text" placeholder="Your name" />
-            </label>
-            <label>
-              Email
-              <input type="email" placeholder="you@email.com" />
-            </label>
-            <label>
-              Project
-              <textarea rows="4" placeholder="Tell us about your project"></textarea>
-            </label>
+
+          <aside class="hero-card" aria-label="Key positioning">
+            <p class="pill">Available for freelance projects</p>
+            <h2>Your technical + strategic partner</h2>
+            <p>
+              From product pages to full storefronts, I combine UX, performance optimization, and clean
+              engineering to improve customer journeys and increase revenue.
+            </p>
+            <ul>
+              <li>Custom front-end development</li>
+              <li>E-commerce UX optimization</li>
+              <li>Technical SEO implementation</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2 id="about-title">A developer who understands both code and commerce.</h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="card">
+              <h3>Experience</h3>
+              <p>
+                I help service businesses, DTC brands, and founders launch websites that are fast,
+                reliable, and conversion-oriented. My work covers discovery, UI/UX design, front-end
+                implementation, and post-launch optimization.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Core skills</h3>
+              <p>
+                HTML, modern CSS, JavaScript, responsive UI architecture, performance tuning, technical
+                SEO, analytics tracking, A/B test support, and e-commerce platform customization.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Unique value</h3>
+              <p>
+                I focus on outcomes—not just deliverables. Every design and development decision is made
+                to improve speed, clarity, and conversion across the full customer journey.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="section surface" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2 id="services-title">High-impact services for growing online businesses.</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <span class="icon" aria-hidden="true">🛍️</span>
+              <h3>E-commerce Store Development</h3>
+              <p>Build or redesign storefronts focused on usability, speed, and checkout completion.</p>
+              <p class="benefit">Benefit: More qualified traffic turns into paying customers.</p>
+            </article>
+            <article class="service-card">
+              <span class="icon" aria-hidden="true">⚡</span>
+              <h3>Performance & Core Web Vitals</h3>
+              <p>Improve loading speed and technical quality to boost rankings and user retention.</p>
+              <p class="benefit">Benefit: Better SEO visibility and lower bounce rates.</p>
+            </article>
+            <article class="service-card">
+              <span class="icon" aria-hidden="true">🎯</span>
+              <h3>Conversion Rate Optimization</h3>
+              <p>Refine navigation, landing pages, and product pages to increase conversion events.</p>
+              <p class="benefit">Benefit: Higher revenue from your existing traffic.</p>
+            </article>
+            <article class="service-card">
+              <span class="icon" aria-hidden="true">🧩</span>
+              <h3>Custom Front-End Engineering</h3>
+              <p>Develop scalable components and polished interfaces aligned with your brand system.</p>
+              <p class="benefit">Benefit: A professional digital presence that scales with growth.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2 id="projects-title">Selected case studies with measurable outcomes.</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <img
+                src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=1200&q=80"
+                alt="E-commerce fashion storefront design preview"
+              />
+              <div class="project-content">
+                <h3>[REPLACE: Project 1 Name]</h3>
+                <p>Modern storefront redesign with optimized product discovery and mobile-first checkout.</p>
+                <p class="metric">Result: +31% checkout completion in 90 days.</p>
+                <a href="[REPLACE: Live project URL]" target="_blank" rel="noopener noreferrer"
+                  >Live Preview</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+                alt="Analytics and growth dashboard for web performance improvements"
+              />
+              <div class="project-content">
+                <h3>[REPLACE: Project 2 Name]</h3>
+                <p>Technical optimization project focused on page speed, schema, and SEO-ready templates.</p>
+                <p class="metric">Result: +58% organic traffic growth over 6 months.</p>
+                <a href="[REPLACE: Case study or code URL]" target="_blank" rel="noopener noreferrer"
+                  >View Details</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+                alt="Collaborative team planning session for digital product launch"
+              />
+              <div class="project-content">
+                <h3>[REPLACE: Project 3 Name]</h3>
+                <p>New conversion-focused landing system for a service business expanding into online sales.</p>
+                <p class="metric">Result: +42% qualified leads in the first quarter.</p>
+                <a href="[REPLACE: Live URL or repo URL]" target="_blank" rel="noopener noreferrer"
+                  >Visit Project</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section class="section surface" id="process" aria-labelledby="process-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Process</p>
+            <h2 id="process-title">How I work from idea to launch.</h2>
+          </div>
+
+          <ol class="process-steps">
+            <li>
+              <h3>1. Discovery & Strategy</h3>
+              <p>Clarify goals, target audience, offer positioning, and key conversion events.</p>
+            </li>
+            <li>
+              <h3>2. UX & Interface Design</h3>
+              <p>Create wireframes and clean UI systems designed for clarity and trust.</p>
+            </li>
+            <li>
+              <h3>3. Development & QA</h3>
+              <p>Build responsive pages, optimize speed, and test across modern devices and browsers.</p>
+            </li>
+            <li>
+              <h3>4. Launch & Optimization</h3>
+              <p>Deploy, monitor analytics, and iterate improvements based on real user behavior.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section" id="testimonials" aria-labelledby="testimonials-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Testimonials</p>
+            <h2 id="testimonials-title">What clients say about working together.</h2>
+          </div>
+
+          <div class="testimonials-grid">
+            <blockquote class="card">
+              “Professional, fast, and focused on results. Our new site looked premium and started
+              converting better almost immediately.”
+              <cite>— [REPLACE: Client Name], Founder</cite>
+            </blockquote>
+            <blockquote class="card">
+              “Excellent communication and execution. The e-commerce improvements paid for themselves in
+              the first month.”
+              <cite>— [REPLACE: Client Name], E-commerce Manager</cite>
+            </blockquote>
+            <blockquote class="card">
+              “A rare mix of design taste and technical depth. I finally felt like we had a real growth
+              partner.”
+              <cite>— [REPLACE: Client Name], CEO</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Let's build a website that moves your business forward.</h2>
+            <p>
+              Tell me about your goals, timeline, and budget. I usually respond within 24–48 hours with
+              next steps.
+            </p>
+            <ul class="contact-links">
+              <li>Email: <a href="mailto:[REPLACE:your@email.com]">[REPLACE: your@email.com]</a></li>
+              <li>LinkedIn: <a href="[REPLACE: LinkedIn URL]" target="_blank" rel="noopener">[REPLACE]</a></li>
+              <li>GitHub: <a href="[REPLACE: GitHub URL]" target="_blank" rel="noopener">[REPLACE]</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact form; replace action endpoint with your service or backend route -->
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your full name" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@company.com" required />
+
+            <label for="message">Project details</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell me about your project goals and timeline"
+              required
+            ></textarea>
+
             <button type="submit" class="btn">Send Inquiry</button>
           </form>
         </div>
@@ -220,14 +325,11 @@
     </main>
 
     <footer class="footer">
-      <p>© 2024 Flourish Digital. Crafted with intention.</p>
-      <div class="footer-links">
-        <a href="#services">Services</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
+      <div class="container">
+        <p>© <span id="year"></span> [REPLACE: Your Name]. All rights reserved.</p>
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
