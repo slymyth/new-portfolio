@@ -4,41 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO: Primary metadata -->
+    <!-- SEO Meta -->
     <title>Flourish Digital | Ecommerce Specialist for Shopify Growth</title>
     <meta
       name="description"
-      content="Flourish Digital helps Shopify and DTC brands increase sales, traffic, and conversion rates with revenue-focused ecommerce strategy, CRO, and store optimization."
+      content="Flourish Digital is an ecommerce specialist studio helping Shopify and DTC brands grow revenue with CRO, speed optimization, ecommerce SEO, and strategic store redesigns."
     />
     <meta
       name="keywords"
-      content="Flourish Digital, ecommerce specialist, Shopify expert, CRO, ecommerce SEO, Shopify conversion optimization, DTC growth"
+      content="Flourish Digital, ecommerce specialist, Shopify expert, CRO consultant, ecommerce SEO, product page optimization, store speed optimization"
     />
     <meta name="author" content="Flourish Digital" />
     <meta name="robots" content="index, follow" />
 
-    <!-- SEO: Open Graph -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Flourish Digital | Ecommerce Specialist" />
     <meta
       property="og:description"
-      content="Helping ecommerce brands increase sales, traffic, and conversions through Shopify-focused growth systems."
+      content="Helping ecommerce brands increase sales, traffic, and conversion rates through Shopify-focused growth systems."
     />
     <meta property="og:url" content="[REPLACE: https://your-domain.com]" />
     <meta property="og:image" content="assets/images/og-image.jpg" />
 
-    <!-- Performance: font preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Sticky Header -->
     <header class="site-header" id="top">
       <nav class="container nav" aria-label="Main navigation">
         <a class="logo" href="#top">Flourish Digital</a>
@@ -60,228 +57,219 @@
           <a href="#case-studies">Case Studies</a>
           <a href="#process">Process</a>
           <a href="#why">Why Flourish</a>
-          <a href="#testimonials">Reviews</a>
+          <a href="#testimonials">Testimonials</a>
           <a href="#contact" class="btn btn-small">Get a Free Store Review</a>
         </div>
       </nav>
     </header>
 
     <main>
-      <!-- 1) Hero Section -->
-      <section class="hero section" aria-labelledby="hero-title">
+      <!-- 1) Hero Section (Animated on page load) -->
+      <section class="section hero" aria-labelledby="hero-title">
         <div class="container hero-grid">
-          <div class="fade-in">
-            <p class="eyebrow">Shopify Growth Partner • Ecommerce Specialist</p>
-            <h1 id="hero-title">Helping Ecommerce Brands Increase Sales, Traffic & Conversions.</h1>
-            <p class="lead">
-              Flourish Digital helps Shopify store owners, DTC founders, and ecommerce teams unlock more
-              revenue with conversion-focused design, performance optimization, and growth strategy.
+          <div class="hero-copy">
+            <p class="eyebrow hero-load">Shopify Growth Partner • Ecommerce Specialist</p>
+            <h1 id="hero-title" class="hero-load delay-1">
+              Helping Ecommerce Brands Increase Revenue, Traffic & Conversion Rate.
+            </h1>
+            <p class="lead hero-load delay-2">
+              Flourish Digital partners with Shopify and DTC brands to fix conversion leaks, improve
+              store performance, and create scalable ecommerce growth systems that drive profitable
+              outcomes.
             </p>
-
-            <div class="hero-actions">
+            <div class="hero-actions hero-load delay-3">
               <a href="#contact" class="btn">Get a Free Store Review</a>
-              <a href="#case-studies" class="btn btn-ghost">View Ecommerce Case Studies</a>
+              <a href="#case-studies" class="btn btn-ghost">View Case Studies</a>
             </div>
-
-            <!-- Trust / authority signals -->
-            <ul class="trust-list" aria-label="Trust signals">
-              <li><strong>Shopify-focused</strong> implementation & growth systems</li>
-              <li><strong>50+ audits</strong> completed across ecommerce niches</li>
-              <li><strong>Up to +42%</strong> conversion improvement on optimized stores</li>
+            <ul class="trust-list hero-load delay-4" aria-label="Trust signals">
+              <li><strong>Shopify Specialist</strong> for ecommerce-led execution</li>
+              <li><strong>50+ store audits</strong> across DTC and niche verticals</li>
+              <li><strong>Up to +42% CVR lift</strong> after optimization sprints</li>
             </ul>
           </div>
 
-          <aside class="hero-card fade-in-delay" aria-label="Ecommerce positioning card">
-            <p class="pill">Revenue-first strategy</p>
-            <h2>Built for brands that need growth, not guesswork.</h2>
+          <aside class="hero-panel hero-load delay-2" aria-label="Revenue-first positioning">
+            <p class="pill">Revenue-first execution</p>
+            <h2>Premium ecommerce strategy, backed by implementation.</h2>
             <p>
-              We analyze your store data, fix conversion leaks, improve product page performance, and
-              optimize customer journeys from first click to checkout.
+              We combine analytics, UX, and conversion psychology to improve the full customer journey —
+              from product discovery to checkout completion.
             </p>
             <ul>
-              <li>Shopify UX and CRO execution</li>
-              <li>Store speed and technical SEO improvements</li>
-              <li>Retention-aware funnel optimization</li>
+              <li>Shopify store UX + CRO implementation</li>
+              <li>Product page and funnel optimization</li>
+              <li>Speed, SEO, and technical quality improvements</li>
             </ul>
           </aside>
         </div>
       </section>
 
-      <!-- 2) About Me Section with image -->
+      <!-- 2) About Me Section (with image + scroll animation) -->
       <section class="section" id="about" aria-labelledby="about-title">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading" data-animate="fade-up">
             <p class="eyebrow">About Flourish Digital</p>
-            <h2 id="about-title">Your Ecommerce Specialist for Shopify Growth.</h2>
+            <h2 id="about-title">An ecommerce specialist focused on profitable growth.</h2>
           </div>
 
           <div class="about-grid">
-            <!-- Replace this image with your real professional photo -->
-            <figure class="about-image card">
+            <figure class="card about-image" data-animate="scale-in">
+              <!-- Replace with your real image file -->
               <img src="assets/images/profile.jpg" alt="Professional profile image of Flourish Digital founder" />
-              <figcaption>
-                Replace image at: <code>/assets/images/profile.jpg</code>
-              </figcaption>
+              <figcaption>Upload your image at: <code>/assets/images/profile.jpg</code></figcaption>
             </figure>
 
-            <article class="about-content card">
+            <article class="card about-content" data-animate="fade-up" data-delay="80">
               <p>
-                I’m the ecommerce specialist behind Flourish Digital, focused on helping Shopify brands
-                turn store traffic into predictable revenue. My work is centered on conversion science,
-                customer journey optimization, and scalable ecommerce systems.
+                I help ecommerce brands unlock more sales from their existing traffic through strategic
+                Shopify optimization, conversion-focused UX, and performance-led storefront improvements.
               </p>
               <p>
-                Instead of generic web development, I solve business-critical ecommerce issues: low
-                conversion rates, weak product pages, slow loading stores, and underperforming acquisition
-                funnels.
+                My work is centered on measurable outcomes: conversion rate, average order value,
+                checkout completion, and revenue per visitor — not vanity design metrics.
               </p>
               <ul class="highlights">
-                <li>Shopify and DTC specialization</li>
-                <li>CRO-first redesign methodology</li>
-                <li>Revenue and retention-focused decisions</li>
-                <li>Clear reporting and strategic iteration</li>
+                <li>Shopify & DTC specialization</li>
+                <li>CRO-first design and implementation</li>
+                <li>Data-backed testing and optimization</li>
+                <li>Clear recommendations and execution roadmap</li>
               </ul>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- 3) Services: Problem -> Solution -> Benefit -->
+      <!-- 3) Services (animated cards) -->
       <section class="section surface" id="services" aria-labelledby="services-title">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading" data-animate="fade-up">
             <p class="eyebrow">Services</p>
-            <h2 id="services-title">Ecommerce growth solutions for Shopify and DTC brands.</h2>
+            <h2 id="services-title">Ecommerce solutions built to increase sales performance.</h2>
           </div>
 
-          <div class="services-grid">
-            <article class="service-card">
+          <div class="services-grid stagger-group">
+            <article class="service-card" data-animate="fade-up">
               <h3>Shopify Store Design & Redesign</h3>
-              <p><strong>Problem:</strong> Outdated store design reduces trust and conversion intent.</p>
-              <p><strong>Solution:</strong> Rebuild key pages with conversion-focused UX and visual hierarchy.</p>
-              <p class="benefit"><strong>Benefit:</strong> Higher engagement and more completed checkouts.</p>
+              <p><strong>Problem:</strong> Your storefront looks outdated and doesn’t convert consistently.</p>
+              <p><strong>Solution:</strong> Redesign high-impact pages with conversion-first UX structure.</p>
+              <p class="benefit"><strong>Benefit:</strong> Improved trust, engagement, and checkout rate.</p>
             </article>
-
-            <article class="service-card">
+            <article class="service-card" data-animate="fade-up">
               <h3>Ecommerce Conversion Rate Optimization (CRO)</h3>
-              <p><strong>Problem:</strong> Traffic is coming in, but purchases remain low.</p>
-              <p><strong>Solution:</strong> Audit funnels, test hypotheses, and optimize high-impact touchpoints.</p>
-              <p class="benefit"><strong>Benefit:</strong> More revenue from existing visitors.</p>
+              <p><strong>Problem:</strong> You have traffic, but revenue growth is inconsistent.</p>
+              <p><strong>Solution:</strong> Diagnose funnel friction and implement iterative CRO improvements.</p>
+              <p class="benefit"><strong>Benefit:</strong> More revenue from existing traffic.</p>
             </article>
-
-            <article class="service-card">
+            <article class="service-card" data-animate="fade-up">
               <h3>Product Page Optimization</h3>
-              <p><strong>Problem:</strong> Product pages fail to communicate value and reduce buyer objections.</p>
-              <p><strong>Solution:</strong> Improve copy structure, trust elements, and persuasive page layouts.</p>
-              <p class="benefit"><strong>Benefit:</strong> Better add-to-cart rate and conversion quality.</p>
+              <p><strong>Problem:</strong> Product pages fail to build trust and urgency.</p>
+              <p><strong>Solution:</strong> Upgrade page hierarchy, messaging, and proof-based components.</p>
+              <p class="benefit"><strong>Benefit:</strong> Better add-to-cart and conversion efficiency.</p>
             </article>
-
-            <article class="service-card">
+            <article class="service-card" data-animate="fade-up">
               <h3>Store Speed & Performance Optimization</h3>
-              <p><strong>Problem:</strong> Slow-loading stores increase bounce rates and kill intent.</p>
-              <p><strong>Solution:</strong> Optimize scripts, media, and front-end rendering performance.</p>
-              <p class="benefit"><strong>Benefit:</strong> Faster UX, stronger SEO signals, and improved retention.</p>
+              <p><strong>Problem:</strong> Slow pages increase bounce and hurt paid traffic ROI.</p>
+              <p><strong>Solution:</strong> Optimize scripts, assets, and render path for faster loading.</p>
+              <p class="benefit"><strong>Benefit:</strong> Better UX, SEO signals, and retention.</p>
             </article>
-
-            <article class="service-card">
+            <article class="service-card" data-animate="fade-up">
               <h3>Ecommerce SEO</h3>
-              <p><strong>Problem:</strong> Product and collection pages struggle to rank in search.</p>
-              <p><strong>Solution:</strong> Implement on-page optimization, internal linking, and schema strategy.</p>
-              <p class="benefit"><strong>Benefit:</strong> More qualified organic traffic and lower CAC pressure.</p>
+              <p><strong>Problem:</strong> Organic growth is limited by weak category/product visibility.</p>
+              <p><strong>Solution:</strong> Implement technical SEO, content hierarchy, and schema structure.</p>
+              <p class="benefit"><strong>Benefit:</strong> More high-intent traffic and lower CAC pressure.</p>
             </article>
-
-            <article class="service-card">
+            <article class="service-card" data-animate="fade-up">
               <h3>Store Audit & Growth Strategy</h3>
-              <p><strong>Problem:</strong> Teams don’t know what to prioritize for growth.</p>
-              <p><strong>Solution:</strong> Deliver a data-backed audit with action roadmap and KPI alignment.</p>
-              <p class="benefit"><strong>Benefit:</strong> Clear next steps with measurable business impact.</p>
+              <p><strong>Problem:</strong> Teams lack clarity on what to fix first.</p>
+              <p><strong>Solution:</strong> Deliver a prioritized roadmap aligned with revenue opportunities.</p>
+              <p class="benefit"><strong>Benefit:</strong> Clear execution path with measurable impact.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- 4) Case Studies / Portfolio -->
+      <!-- 4) Case Studies (animated grid + hover reveal CTA) -->
       <section class="section" id="case-studies" aria-labelledby="cases-title">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading" data-animate="fade-up">
             <p class="eyebrow">Case Studies</p>
-            <h2 id="cases-title">Ecommerce projects with real growth outcomes.</h2>
+            <h2 id="cases-title">Ecommerce results from conversion and growth-focused execution.</h2>
           </div>
 
-          <div class="cases-grid">
-            <article class="case-card">
+          <div class="cases-grid stagger-group">
+            <article class="case-card" data-animate="fade-up">
               <img
                 src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=1200&q=80"
-                alt="Fashion ecommerce storefront redesign"
+                alt="Shopify fashion ecommerce storefront redesign preview"
               />
               <div class="case-content">
                 <h3>[REPLACE: Fashion Store Redesign]</h3>
-                <p><strong>Problem:</strong> High cart abandonment and poor mobile checkout flow.</p>
-                <p><strong>What we did:</strong> Rebuilt PDP and checkout UX with stronger trust and clarity.</p>
-                <p class="metric"><strong>Result:</strong> +34% checkout completion in 10 weeks.</p>
-                <a href="[REPLACE: Live URL or case study link]" target="_blank" rel="noopener noreferrer">See Case Study</a>
+                <p><strong>Problem:</strong> High mobile drop-off and checkout abandonment.</p>
+                <p><strong>Result:</strong> +34% checkout completion in 10 weeks.</p>
+                <a href="[REPLACE: Case study URL]" target="_blank" rel="noopener noreferrer">View Case Study</a>
               </div>
             </article>
-
-            <article class="case-card">
+            <article class="case-card" data-animate="fade-up">
               <img
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
-                alt="Ecommerce analytics dashboard showing growth"
+                alt="Ecommerce analytics dashboard showing conversion and revenue growth"
               />
               <div class="case-content">
-                <h3>[REPLACE: Beauty DTC Growth Sprint]</h3>
-                <p><strong>Problem:</strong> Strong ad spend but low onsite conversion efficiency.</p>
-                <p><strong>What we did:</strong> Funnel optimization, speed fixes, and product page enhancements.</p>
-                <p class="metric"><strong>Result:</strong> +27% CVR and +19% AOV.</p>
-                <a href="[REPLACE: URL]" target="_blank" rel="noopener noreferrer">View Results</a>
+                <h3>[REPLACE: Beauty DTC Optimization Sprint]</h3>
+                <p><strong>Problem:</strong> Heavy ad spend with low onsite conversion efficiency.</p>
+                <p><strong>Result:</strong> +27% CVR and +19% average order value.</p>
+                <a href="[REPLACE: Case study URL]" target="_blank" rel="noopener noreferrer">See Results</a>
               </div>
             </article>
-
-            <article class="case-card">
+            <article class="case-card" data-animate="fade-up">
               <img
                 src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?auto=format&fit=crop&w=1200&q=80"
-                alt="Product page optimization for ecommerce conversion"
+                alt="Optimized ecommerce product page layout for higher add-to-cart rate"
               />
               <div class="case-content">
                 <h3>[REPLACE: Supplement Brand CRO]</h3>
-                <p><strong>Problem:</strong> Product pages lacked trust and conversion structure.</p>
-                <p><strong>What we did:</strong> Added proof sections, offer framing, and retention touchpoints.</p>
-                <p class="metric"><strong>Result:</strong> +42% add-to-cart rate in one quarter.</p>
-                <a href="[REPLACE: URL]" target="_blank" rel="noopener noreferrer">Open Project</a>
+                <p><strong>Problem:</strong> Product pages lacked trust, clarity, and conversion flow.</p>
+                <p><strong>Result:</strong> +42% add-to-cart rate in one quarter.</p>
+                <a href="[REPLACE: Case study URL]" target="_blank" rel="noopener noreferrer">Open Project</a>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- 5) How I Work -->
+      <!-- 5) Process Timeline -->
       <section class="section surface" id="process" aria-labelledby="process-title">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading" data-animate="fade-up">
             <p class="eyebrow">How I Work</p>
-            <h2 id="process-title">A structured process built for ecommerce growth.</h2>
+            <h2 id="process-title">A structured ecommerce growth process.</h2>
           </div>
 
-          <ol class="process-steps">
-            <li>
-              <h3>1. Store Audit & Data Review</h3>
-              <p>Assess UX, speed, analytics, and funnel leaks to identify revenue opportunities.</p>
+          <ol class="process-timeline stagger-group">
+            <li data-animate="fade-up">
+              <span class="step-icon" aria-hidden="true">🔎</span>
+              <h3>Store Audit & Data Review</h3>
+              <p>Identify conversion leaks, UX friction, and technical performance issues.</p>
             </li>
-            <li>
-              <h3>2. Strategy & Growth Plan</h3>
-              <p>Prioritize highest-impact actions with clear milestones and KPI targets.</p>
+            <li data-animate="fade-up">
+              <span class="step-icon" aria-hidden="true">🧭</span>
+              <h3>Strategy & Growth Plan</h3>
+              <p>Prioritize high-impact opportunities and define clear KPI targets.</p>
             </li>
-            <li>
-              <h3>3. Optimization & Implementation</h3>
-              <p>Execute Shopify improvements across design, performance, and conversion flow.</p>
+            <li data-animate="fade-up">
+              <span class="step-icon" aria-hidden="true">⚙️</span>
+              <h3>Optimization & Implementation</h3>
+              <p>Execute improvements across Shopify UX, product pages, and funnel flow.</p>
             </li>
-            <li>
-              <h3>4. Testing & CRO Improvements</h3>
-              <p>Validate changes through behavior insights and iterative optimization cycles.</p>
+            <li data-animate="fade-up">
+              <span class="step-icon" aria-hidden="true">🧪</span>
+              <h3>Testing & CRO Improvements</h3>
+              <p>Validate outcomes and iterate with continuous optimization cycles.</p>
             </li>
-            <li>
-              <h3>5. Scaling & Long-Term Growth</h3>
-              <p>Expand winning systems to increase profitability and sustainable growth.</p>
+            <li data-animate="fade-up">
+              <span class="step-icon" aria-hidden="true">📈</span>
+              <h3>Scaling & Long-Term Growth</h3>
+              <p>Double down on winning systems to improve profitability over time.</p>
             </li>
           </ol>
         </div>
@@ -290,27 +278,27 @@
       <!-- 6) Why Choose Flourish Digital -->
       <section class="section" id="why" aria-labelledby="why-title">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading" data-animate="fade-up">
             <p class="eyebrow">Why Choose Flourish Digital</p>
-            <h2 id="why-title">Why ecommerce brands trust Flourish.</h2>
+            <h2 id="why-title">Authority, clarity, and execution for ecommerce growth.</h2>
           </div>
 
-          <div class="why-grid">
-            <article class="card">
+          <div class="why-grid stagger-group">
+            <article class="card" data-animate="fade-up">
               <h3>Ecommerce-Only Focus</h3>
-              <p>You work with a specialist focused on online store growth, not general web projects.</p>
+              <p>Specialized in Shopify and DTC growth, not generic website projects.</p>
             </article>
-            <article class="card">
-              <h3>Shopify Expertise</h3>
-              <p>Deep experience with Shopify UX patterns, conversion architecture, and growth workflows.</p>
+            <article class="card" data-animate="fade-up">
+              <h3>Revenue-Driven Decisions</h3>
+              <p>Every recommendation maps to CVR, AOV, checkout rate, or retention.</p>
             </article>
-            <article class="card">
-              <h3>Revenue-First Strategy</h3>
-              <p>Every recommendation is tied to business outcomes: sales, CVR, AOV, and retention.</p>
+            <article class="card" data-animate="fade-up">
+              <h3>Strategic + Hands-On</h3>
+              <p>From diagnosis to implementation, you get actionable execution support.</p>
             </article>
-            <article class="card">
-              <h3>Execution + Strategy</h3>
-              <p>From audits to implementation, you get actionable strategy and hands-on delivery.</p>
+            <article class="card" data-animate="fade-up">
+              <h3>Premium Client Experience</h3>
+              <p>Clear communication, fast iteration, and professional delivery standards.</p>
             </article>
           </div>
         </div>
@@ -319,25 +307,26 @@
       <!-- 7) Testimonials -->
       <section class="section" id="testimonials" aria-labelledby="testimonials-title">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading" data-animate="fade-up">
             <p class="eyebrow">Testimonials</p>
-            <h2 id="testimonials-title">What ecommerce clients say.</h2>
+            <h2 id="testimonials-title">Trusted by ecommerce founders and store owners.</h2>
           </div>
 
-          <div class="testimonials-grid">
-            <blockquote class="card">
-              “Flourish Digital completely transformed our Shopify store. The funnel fixes alone increased
-              our monthly revenue within weeks.”
+          <div class="testimonials-grid stagger-group">
+            <blockquote class="card" data-animate="fade-up">
+              “Flourish Digital transformed our Shopify funnel. Our conversion rate improved quickly and
+              the overall customer journey feels premium now.”
               <cite>— [REPLACE: Client Name], DTC Founder</cite>
             </blockquote>
-            <blockquote class="card">
-              “Strong strategic thinking and flawless execution. We saw major conversion improvements across
-              mobile.”
+            <blockquote class="card" data-animate="fade-up">
+              “We needed ecommerce expertise, not another web designer. Execution was strategic, fast,
+              and directly tied to revenue goals.”
               <cite>— [REPLACE: Client Name], Ecommerce Manager</cite>
             </blockquote>
-            <blockquote class="card">
-              “Finally a partner who speaks in revenue outcomes, not vanity metrics. Highly recommended.”
-              <cite>— [REPLACE: Client Name], Shopify Store Owner</cite>
+            <blockquote class="card" data-animate="fade-up">
+              “Clear audit, clear priorities, clear results. Exactly the kind of Shopify growth partner
+              we were looking for.”
+              <cite>— [REPLACE: Client Name], Store Owner</cite>
             </blockquote>
           </div>
         </div>
@@ -346,22 +335,24 @@
       <!-- 8) Contact / Conversion -->
       <section class="section contact-section" id="contact" aria-labelledby="contact-title">
         <div class="container contact-grid">
-          <div>
-            <p class="eyebrow">Start Your Growth Sprint</p>
-            <h2 id="contact-title">Request your free store review today.</h2>
+          <div data-animate="fade-up">
+            <p class="eyebrow">Final Step</p>
+            <h2 id="contact-title">Request your free store review and growth roadmap.</h2>
             <p>
-              Share your store URL and goals. You’ll get actionable recommendations and clear next steps.
+              Share your store URL and goals. You’ll receive practical, revenue-focused recommendations
+              and the best next steps for your ecommerce growth.
             </p>
             <ul class="contact-links">
               <li>Email: <a href="mailto:[REPLACE: hello@flourishdigital.com]">[REPLACE: hello@flourishdigital.com]</a></li>
-              <li>Instagram: <a href="[REPLACE: Instagram URL]" target="_blank" rel="noopener">[REPLACE]</a></li>
               <li>LinkedIn: <a href="[REPLACE: LinkedIn URL]" target="_blank" rel="noopener">[REPLACE]</a></li>
+              <li>Instagram: <a href="[REPLACE: Instagram URL]" target="_blank" rel="noopener">[REPLACE]</a></li>
             </ul>
-            <a class="btn booking-btn" href="[REPLACE: Calendly or booking URL]" target="_blank" rel="noopener">Book a Strategy Session</a>
+            <a class="btn" href="[REPLACE: Calendly/Booking URL]" target="_blank" rel="noopener">
+              Book a Strategy Session
+            </a>
           </div>
 
-          <!-- Replace form action with Formspree, Netlify Forms, backend API, etc. -->
-          <form class="contact-form" action="#" method="post">
+          <form class="contact-form" action="#" method="post" data-animate="fade-up" data-delay="80">
             <label for="name">Name</label>
             <input id="name" name="name" type="text" placeholder="Your full name" required />
 
@@ -371,16 +362,16 @@
             <label for="store">Store URL</label>
             <input id="store" name="store" type="url" placeholder="https://yourstore.com" required />
 
-            <label for="message">What do you want to improve?</label>
+            <label for="message">What would you like to improve?</label>
             <textarea
               id="message"
               name="message"
               rows="5"
-              placeholder="Traffic, conversion rate, AOV, retention, speed, etc."
+              placeholder="Conversions, speed, product pages, retention, SEO, or paid traffic performance"
               required
             ></textarea>
 
-            <button type="submit" class="btn">Request Free Store Review</button>
+            <button type="submit" class="btn">Get a Free Store Review</button>
           </form>
         </div>
       </section>

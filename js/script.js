@@ -18,16 +18,46 @@ if (navToggle && navLinks) {
 
 // Footer year helper
 const yearEl = document.getElementById('year');
-if (yearEl) {
-  yearEl.textContent = new Date().getFullYear();
+if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+// Scroll-triggered animation system using IntersectionObserver.
+const animatedNodes = document.querySelectorAll('[data-animate]');
+const staggerGroups = document.querySelectorAll('.stagger-group');
+
+// Apply stagger delays to children inside groups.
+staggerGroups.forEach((group) => {
+  const children = group.querySelectorAll('[data-animate]');
+  children.forEach((child, index) => {
+    const customDelay = child.getAttribute('data-delay');
+    const delay = customDelay ? Number(customDelay) : index * 80;
+    child.style.setProperty('--anim-delay', `${delay}ms`);
+  });
+});
+
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(
+    (entries, io) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.14, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  animatedNodes.forEach((node) => observer.observe(node));
+} else {
+  animatedNodes.forEach((node) => node.classList.add('in-view'));
 }
 
-// Contact form placeholder for static builds
+// Placeholder form handler for static portfolio usage.
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
   contactForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    alert('Thanks! Connect this form to your backend, Formspree, or CRM to receive leads.');
+    alert('Thanks! Connect this form to Formspree, Netlify Forms, or your backend endpoint.');
     contactForm.reset();
   });
 }
